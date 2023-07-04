@@ -150,7 +150,70 @@ footer{
     margin-right:10px ;
 }
 
+@media (max-width:970px) {
+    .about-body{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .left{
+        margin-top: 50px;
+        margin-left:30px;
+    }
 
+    .left img{
+        width: auto;
+    }
+
+    .flex-1{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .find-us-body{
+        display:block;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:875px){
+    .div{
+        flex-wrap: wrap;
+    }
+    .flex-1>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:468px){
+    .div-1 img{
+     width: 200px;
+     height: 99px;
+    }
+  .body2 img{
+    width:80vw;
+  }
+
+  .flex-1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 50px;
+}
+ footer{
+    flex-wrap: wrap;
+    width: 100%;
+ }
+
+ .items img{
+    width: 100%;
+    height: 400px;
+    margin-inline: auto;
+}
+
+}
   
   
 
