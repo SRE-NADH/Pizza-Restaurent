@@ -1,0 +1,79 @@
+*{
+    font-family: 'Ruda', sans-serif;
+}
+
+#insta{
+   padding-top:6px;
+}
+#facebook{
+    margin-right:12px;
+}
+body{
+  background-color: black;  
+}
+.topbar{
+    background-color: black;
+}
+header{
+    background-image: url("file:///E:/web%20dev/Html%20projects/Restaurent/restaurent-imgs/pizza1%201.svg");
+    background-position: center center;
+    padding: 0%;
+            /* Make image fixed */
+            
+            /* Not repeat images */
+ 
+            background-size: cover;
+            height:500px;
+            margin: 0%;
+}      
+.inner{
+    display: flex;
+    flex-direction: column;
+}
+#img-2{
+   margin-top:100px; 
+   margin-left: 60px;
+}
+#img-3{
+    margin-left: 60px;
+}
+.inner p{
+    margin-left: 60px;
+    color: white;
+    font-weight: 400;
+}
+.about-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-body{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    margin-inline:150px;
+}
+.left{
+     align-items: start;
+     margin-right: 50px;
+     
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left p{
+    color: white;
+}
+.menu-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 150px;
+    color: white;
+}
+.flex-1{
+    display: flex;
+    margin-inline:150px;
+}
